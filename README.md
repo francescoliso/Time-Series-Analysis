@@ -4,34 +4,34 @@
 
 ## Introduction
 
-Nonlinear time series such as stock prices have long been considered to be impossible to forecast. From the earliest studies reported, there have been several studies that claim that stock prices tend to follow a random walk and consequently, cannot be predicted with any reasonable degree of accuracy. However, with the advent of artificial neural networks and other soft computing techniques, it has become easier to model (to a limited degree, at least) the nonlinear behavior exhibited by stock price time series. Deep learning models have become very popular recently and have been yielding state- of-the-art performance for tasks such as image classification. However, the applicability of such deep learning models for stock forecasting is still being explored.
+Nonlinear time series such as stock prices have long been considered to be impossible to forecast. The classical methods used for time series prediction like Box-Jenkins or ARIMA assumes that there is a linear relationship between inputs and outputs. However, with the advent of artificial neural networks and other soft computing techniques, it has become easier to model the nonlinear behavior exhibited by stock price time series. Since 1970, with the rapid development of computer technology, researchers have begun using machine learning to predict stock prices and fluctuations, helping investors determine investment strategies to reduce risk and increase returns. Given the recent deep learning revolution, there has been much attention in using deep learning models for time series prediction
 
-Stock price prediction is a hot topic and traditional prediction methods are usually based on
-statistical and econometric models.  
+This project aims to develop a stock price prediction method by taking full advantage of Deep Learning Techniques. The stock exchange of some well-known  will be used to compare different Deep Learning models. the goal is to make a multi-step ahead prediction of the “Close price” attribute and, at the same time, reach the best accuracy. 
+The deep learning methods comprise simple recurrent neural networks, long
+short-term memory (LSTM) networks, bidirectional LSTM networks, encoder-decoder LSTM networks,
+It has been planned to apply some Deep Learning techniques:
+• Recurrent Neural Network (RNN)
+• Long Short-Term Memory (LSTM)
+• Gated Recurrent Unit (GRU)
+• Convolutional Neural Network (CNN, or ConvNet)
 
-Stock is a financial product characterized by high risk, high return and flexible trading, which is favored by many investors. Investors can get abundant returns by accurately
-estimating stock price trends. However, the stock price is influenced by many factors such as macroeconomic situation, market condition, major social and economic events, investors’ preferences and companies’ managerial decisions. Therefore, prediction of the stock price
-has always been the focus and difficult research topic. Statistical and econometric modelsare generally used in traditional stock price prediction, but these methods cannot deal with the dynamic and complex environment of the stock market. Since 1970, with the rapid development of computer technology, researchers have begun using machine learning to
-predict stock prices and fluctuations, helping investors determine investment strategies to reduce risk and increase returns.
 
-Recent studies have shown the classification and prediction power of the Neural Networks. It has been demonstrated that a NN can approximate any continuous function. Neural networks have been successfully used for forecasting of financial data series. The classical methods used for time series prediction like Box-Jenkins or ARIMA assumes that there is a linear relationship between inputs and outputs. Neural Networks have the advantage that can approximate nonlinear functions. In this paper we compared the performances of different feed forward and recurrent neural networks and training algorithms for predicting the exchange rate EUR/RON and USD/RON. We used data series with daily exchange rates starting from 2005 until 2013.
-
-This project aims to develop a stock price prediction method by taking full advantage of Deep Learning Techniques. There will be used The stock exchange shares of some listed multinationals will be used in the project
+<strong> KEYWORDS Text mining, Deep learning, Financial social media, Stock price prediction Recurrent neural networks; LSTM networks; Convolutional neural networks; Deep Learning; Time Series Prediction
 
 LinkedIn: https://www.linkedin.com/in/francesco-liso <br>
 
-<!-- 
 
 ## Table of Contents
 <details open>
 <summary>Show/Hide</summary>
 <br>
-
+ 
+<!-- 
 1. [ File Descriptions ](#File_Description)
 2. [ Technologies Used ](#Technologies_Used)    
 3. [ Structure ](#Structure)
 4. [ Executive Summary ](#Executive_Summary)
-   * [ 1. Webscraping, Early EDA, and Cleaning ](#Webscraping_Early_EDA_and_Cleaning)
+   * [ 1. Data Visualization ](#Webscraping_Early_EDA_and_Cleaning)
        * [ Webscraping ](#Webscraping)
        * [ Early EDA and Cleaning](#Early_EDA_and_Cleaning)
    * [ 2. Further EDA and Preprocessing ](#Further_EDA_and_Preprocessing) 
