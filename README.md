@@ -1,29 +1,26 @@
 # Multivariate-Time-Series-Forecasting
-Stock price forecasting using Deep Learning
-<h1 align='center'>HILTON HOTEL LONDON REVIEWS CLASSIFIER</h1>
 
-<p align="center">
-  <img src="https://github.com/awesomeahi95/Hotel_Review_NLP/blob/master/Images/five_stars.png" width=600>
-</p>
+<h3 align='center'>Stock price forecasting with Deep Learning techniques</h3>
 
-<strong> Here is a demo application of the review classifier: https://hilton-hotel-app.herokuapp.com/ </strong> 
+## Introduction
 
-Try it out by inputting a review that you found online, or wrote yourself, and it will clasify the review title, the review, or both with a score between 1-5.
+Nonlinear time series such as stock prices have long been considered to be impossible to forecast. From the earliest studies reported, there have been several studies that claim that stock prices tend to follow a random walk and consequently, cannot be predicted with any reasonable degree of accuracy. However, with the advent of artificial neural networks and other soft computing techniques, it has become easier to model (to a limited degree, at least) the nonlinear behavior exhibited by stock price time series. Deep learning models have become very popular recently and have been yielding state- of-the-art performance for tasks such as image classification. However, the applicability of such deep learning models for stock forecasting is still being explored.
 
-## Business Case
+Stock price prediction is a hot topic and traditional prediction methods are usually based on
+statistical and econometric models.  
 
-In the modern day, public discussion and critiquing of products and services occurs beyond dedicated mediums, and now also takes place in the realm of social media, too.
+Stock is a financial product characterized by high risk, high return and flexible trading, which is favored by many investors. Investors can get abundant returns by accurately
+estimating stock price trends. However, the stock price is influenced by many factors such as macroeconomic situation, market condition, major social and economic events, investors’ preferences and companies’ managerial decisions. Therefore, prediction of the stock price
+has always been the focus and difficult research topic. Statistical and econometric modelsare generally used in traditional stock price prediction, but these methods cannot deal with the dynamic and complex environment of the stock market. Since 1970, with the rapid development of computer technology, researchers have begun using machine learning to
+predict stock prices and fluctuations, helping investors determine investment strategies to reduce risk and increase returns.
 
-Online Hilton Hotel reviews are currently found on tripadvisor, trustpilot, and expedia. The majority of reviewers gave a score between 3 and 5, so if a new customer browses online reviews on any of the previously mentioned review sites, they may consider booking a room at the Hilton. 
+Recent studies have shown the classification and prediction power of the Neural Networks. It has been demonstrated that a NN can approximate any continuous function. Neural networks have been successfully used for forecasting of financial data series. The classical methods used for time series prediction like Box-Jenkins or ARIMA assumes that there is a linear relationship between inputs and outputs. Neural Networks have the advantage that can approximate nonlinear functions. In this paper we compared the performances of different feed forward and recurrent neural networks and training algorithms for predicting the exchange rate EUR/RON and USD/RON. We used data series with daily exchange rates starting from 2005 until 2013.
 
-What if they already made up their mind from hearing what a friend had to say?
-Potential customers, could have their hotel choice be influenced by a tweet. Opinions are shared constantly on social media platforms, and are read by their followers. The knowledge, of what these followers think about our hotel, from reading these online posts, could help us better understand the general public's perception of our hotel. 
+This project aims to develop a stock price prediction method by taking full advantage of Deep Learning Techniques. There will be used The stock exchange shares of some listed multinationals will be used in the project
 
-By using sentiment analysis, on existing hotel reviews from Tripadvisor.com, I created a model that can quantify on a scale of 1-5, how the author of a tweet on twitter, or a post on a reddit thread, feels about our hotel, and as a result, also how the readers think about us. If a review classifies to be less than a score of 3, this post/tweet could be looked into, find out why they had a negative opinion of our hotel, and in return fix the problem. 
+LinkedIn: https://www.linkedin.com/in/francesco-liso <br>
 
-Email: candyahs@gmail.com <br>
-LinkedIn: www.linkedin.com/in/ahilan-srivishnumohan/ <br>
-Medium: www.medium.com/@candyahs <br>
+<!-- 
 
 ## Table of Contents
 <details open>
@@ -56,8 +53,6 @@ Medium: www.medium.com/@candyahs <br>
     * <strong>2.hotel_reviews_structured.csv</strong>: data after balancing and cleaning
     * <strong>3.x_train_data.csv</strong>: training data with x values from preprocessed dataset
     * <strong>3.y_train_data.csv</strong>: training data with y values from preprocessed dataset
-    * <strong>4.x_test_data.csv</strong>: test data with x values from preprocessed dataset
-    * <strong>4.y_test_data.csv</strong>: test data with y values from preprocessed dataset
 * <strong>[ Images ](https://github.com/awesomeahi95/Hotel_Review_NLP/tree/master/Images)</strong>: folder containing images used for README and presentation pdf
 * <strong>[ Models ](https://github.com/awesomeahi95/Hotel_Review_NLP/tree/master/Models)</strong>: folder containing trained models saved with pickle
     * <strong>Adabooost.pkl, Decision Tree.pkl, KNN.pkl, Logistic Regression.pkl, Naive Bayes.pkl, Neural Network.pkl, Random Forest.pkl, Stacking.pkl, SVM.pkl, Voting.pkl, XGBoost.pkl</strong>
@@ -79,8 +74,6 @@ Medium: www.medium.com/@candyahs <br>
 * <strong>[ Helpers_NN.py ](https://github.com/awesomeahi95/Hotel_Review_NLP/blob/master/Helpers_NN.py)</strong>: contains methods used to help with neural network processes
 * <strong>[ Hilton_Hotel_App.py ](https://github.com/awesomeahi95/Hotel_Review_NLP/blob/master/Hilton_Hotel_App.py)</strong>: contains script to run app
 * <strong>[ Hilton__Hotel_Presentation.pdf ](https://github.com/awesomeahi95/Hotel_Review_NLP/blob/master/Hilton_Hotel_Presentation.pdf)</strong>: presentation summarising project case, processese, and findings
-* <strong>[ Procfile ](https://github.com/awesomeahi95/Hotel_Review_NLP/blob/master/Procfile)</strong>: file supporting Heroku application
-* <strong>[ requirements.txt ](https://github.com/awesomeahi95/Hotel_Review_NLP/blob/master/requirements.txt)</strong>: dependencies for heroku application
 </details>
 
 ## Tecnologies Used:
@@ -94,13 +87,9 @@ Medium: www.medium.com/@candyahs <br>
 * <strong>Numpy</strong>
 * <strong>Matplotlib</strong>
 * <strong>Seaborn</strong>
-* <strong>NLTK</strong>
-* <strong>Scrapy</strong>
 * <strong>Scikit-Learn</strong>
 * <strong>Keras</strong>
 * <strong>Tensorflow</strong>
-* <strong>Streamlit</strong>
-* <strong>Heroku</strong>
 </details>
 
 ## Structure of Notebooks:
@@ -134,13 +123,10 @@ Medium: www.medium.com/@candyahs <br>
    * 3.1 Imports
    * 3.2 Train and Validation Split
    * 3.3 Decision Tree (Baseline)
-   * 3.4 Random Forest
-   * 3.5 Logistic Regression
-   * 3.6 Support Vector Machines
-   * 3.7 Guassian Naive Bayes
-   * 3.8 KNN
-   * 3.9 Adaboost (Logistic Regression)
-   * 3.10 XGBoost (Logistic Regression)
+   * 3.4 LSTM
+   * 3.5 RNN
+   * 3.6 GRU
+   * 3.7 CNN
    * 3.11 Voting
    * 3.12 Stacking
    * 3.13 All Models Compared
@@ -392,3 +378,5 @@ Using this model, we will learn more about our new and old customers, then we ca
 * Create a webscraper spider for twitter, reddit, etc for further model assessment
     
 </details>
+
+-->
