@@ -20,6 +20,8 @@ It has been planned to apply some Deep Learning techniques:
 
 LinkedIn: https://www.linkedin.com/in/francesco-liso <br>
 
+## On-going project........... 
+ 
 
 ## Table of Contents
 <details open>
