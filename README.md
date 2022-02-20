@@ -17,8 +17,7 @@ It has been planned to apply some Deep Learning techniques:
 
 
 <strong> KEYWORDS Time series, Deep learning, Stock price prediction Recurrent neural networks; LSTM networks; Convolutional neural networks; Deep Learning;
-
-LinkedIn: https://www.linkedin.com/in/francesco-liso <br>
+ 
 
 ## On-going project........... 
  
