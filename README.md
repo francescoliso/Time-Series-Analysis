@@ -16,7 +16,7 @@ It has been planned to apply some Deep Learning techniques:
 • Convolutional Neural Network (CNN, or ConvNet)
 
 
-<strong> KEYWORDS Text mining, Deep learning, Financial social media, Stock price prediction Recurrent neural networks; LSTM networks; Convolutional neural networks; Deep Learning; Time Series Prediction
+<strong> KEYWORDS Time series, Deep learning, Stock price prediction Recurrent neural networks; LSTM networks; Convolutional neural networks; Deep Learning;
 
 LinkedIn: https://www.linkedin.com/in/francesco-liso <br>
 
