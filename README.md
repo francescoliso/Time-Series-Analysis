@@ -4,11 +4,10 @@
 
 ## Introduction
 
-Nonlinear time series such as stock prices have long been considered to be impossible to forecast. The classical methods used for time series prediction like Box-Jenkins or ARIMA assumes that there is a linear relationship between inputs and outputs. However, with the advent of artificial neural networks and other soft computing techniques, it has become easier to model the nonlinear behavior exhibited by stock price time series. Since 1970, with the rapid development of computer technology, researchers have begun using machine learning to predict stock prices and fluctuations, helping investors determine investment strategies to reduce risk and increase returns. Given the recent deep learning revolution, there has been much attention in using deep learning models for time series prediction
+Nonlinear time series such as stock prices have long been considered to be impossible to forecast. The classical methods used for time series prediction like Box-Jenkins or ARIMA assumes that there is a linear relationship between inputs and outputs. However, with the advent of artificial neural networks and other soft computing techniques, it has become easier to model the nonlinear behavior exhibited by stock price time series. Now, Given the recent deep learning revolution, there has been much attention in using deep learning models for time series prediction
 
-This project aims to develop a stock price prediction method by taking full advantage of Deep Learning Techniques. The stock exchange of some well-known  will be used to compare different Deep Learning models. the goal is to make a multi-step ahead prediction of the “Close price” attribute and, at the same time, reach the best accuracy. 
-The deep learning methods comprise simple recurrent neural networks, long
-short-term memory (LSTM) networks, bidirectional LSTM networks, encoder-decoder LSTM networks,
+This project aims to develop a stock price prediction method by taking full advantage of Deep Learning Techniques. The stock exchange of some well-known will be used to compare different Deep Learning models. the goal is to make a multi-step ahead prediction of the “Close price” attribute and, at the same time, reach the best accuracy. 
+
 It has been planned to apply some Deep Learning techniques:
 • Recurrent Neural Network (RNN)
 • Long Short-Term Memory (LSTM)
