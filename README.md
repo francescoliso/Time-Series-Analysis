@@ -6,16 +6,37 @@
 
 Nonlinear time series such as stock prices have long been considered to be impossible to forecast. The classical methods used for time series prediction like Box-Jenkins or ARIMA assumes that there is a linear relationship between inputs and outputs. However, with the advent of artificial neural networks and other soft computing techniques, it has become easier to model the nonlinear behavior exhibited by stock price time series. Now, Given the recent deep learning revolution, there has been much attention in using deep learning models for time series prediction
 
-This project aims to develop a stock price prediction method by taking full advantage of Deep Learning Techniques. The stock exchange of some well-known will be used to compare different Deep Learning models. the goal is to make a multi-step ahead prediction of the “Close price” attribute and, at the same time, reach the best accuracy. 
-
-It has been planned to apply some Deep Learning techniques:
+KEYWORDS Time series, Deep learning, Stock price prediction Recurrent neural networks; LSTM networks; Convolutional neural networks; Deep Learning;
+ 
+<strong>1. Motivation: What problem are you tackling?</strong>
+ * The problem that has been decided to tackle is Multivariate Time Series Forecasting. In particular the goal is to make a multi-step ahead prediction of the “Close price” attribute and, at the same time, reach the best accuracy. The attributes of the datasets downloaded by https://it.finance.yahoo.com are Date, Open, High, Low, Close, Adj Close, Volume.
+ 
+<strong>2. Method: What machine learning techniques are you planning to apply or improve upon?</strong>
+ * It has been planned to apply some Deep Learning techniques:
 • Recurrent Neural Network (RNN)
 • Long Short-Term Memory (LSTM)
 • Gated Recurrent Unit (GRU)
 • Convolutional Neural Network (CNN, or ConvNet)
+ 
+<strong>3. Intended experiments: What experiments are you planning to run? How do you plan to evaluate your machine learning algorithm?</strong>
+ * It has been planned to find the best hyperparameters for every algorithm chosen, and compare the performance of them on the The Procter & Gamble Company (PG) – NYSE dataset, in order to see what is the algorithm that guarantees the best performance.
+ 
+<strong>4. Results of single step prediction:</strong> 
 
+ * <strong>CNN  performance: </strong> 
+   * R^2: 99.6452 % - Mean Absolute Error: 0.9075 - Root Mean Square Error: 1.4298
+ * <strong>LSTM performance: </strong>
+   * R^2: 99.6352 % - Mean Absolute Error: 0.9384 - Root Mean Square Error: 1.4499
+ * <strong>GRU  performance: </strong>
+   * R^2: 99.5888 % - Mean Absolute Error: 0.9811 - Root Mean Square Error: 1.5392
+ * <strong>RNN performance: </strong>
+   * R^2: 99.6242 % - Mean Absolute Error: 0.9285 - Root Mean Square Error: 1.4716
 
-<strong> KEYWORDS Time series, Deep learning, Stock price prediction Recurrent neural networks; LSTM networks; Convolutional neural networks; Deep Learning;
+In the folder “Model/Results” you can find the models saved and the results of Hyperparameter tuning, and of prediction
+ 
+5. Multi-step prediction
+Ongoing work….
+
  
 
 ## On-going project........... 
