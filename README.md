@@ -21,6 +21,8 @@ KEYWORDS Time series, Deep learning, Stock price prediction Recurrent neural net
 <strong>3. Intended experiments: What experiments are you planning to run? How do you plan to evaluate your machine learning algorithm?</strong>
  * It has been planned to find the best hyperparameters for every algorithm chosen, and compare the performance of them on the The Procter & Gamble Company (PG) – NYSE dataset, in order to see what is the algorithm that guarantees the best performance.
  
+  
+<!-- 
 <strong>4. Results of single step prediction:</strong> 
 
  * <strong>CNN  performance: </strong> 
@@ -46,8 +48,7 @@ Ongoing work….
 <details open>
 <summary>Show/Hide</summary>
 <br>
- 
-<!-- 
+
 1. [ File Descriptions ](#File_Description)
 2. [ Technologies Used ](#Technologies_Used)    
 3. [ Structure ](#Structure)
