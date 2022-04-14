@@ -1,6 +1,6 @@
 # Multivariate-Time-Series-Forecasting
 
-<h3 align='center'>Stock price forecasting with Deep Learning techniques</h3>
+<h3 align='center'>Stock price forecasting</h3>
 
 ## Introduction
 
@@ -9,18 +9,24 @@ Nonlinear time series such as stock prices have long been considered to be impos
 KEYWORDS Time series, Deep learning, Stock price prediction Recurrent neural networks; LSTM networks; Convolutional neural networks; Deep Learning;
  
 <strong>1. Motivation: What problem are you tackling?</strong>
- * The problem that has been decided to tackle is Multivariate Time Series Forecasting. In particular the goal is to make a multi-step ahead prediction of the “Close price” attribute and, at the same time, reach the best accuracy. The attributes of the datasets downloaded by https://it.finance.yahoo.com are Date, Open, High, Low, Close, Adj Close, Volume.
+ * The problem that has been decided to tackle is Multivariate Time Series Forecasting. In particular the goal is to make a single-step ahead prediction of the “Close price” attribute and, at the same time, reach the best accuracy. The attributes of the datasets downloaded by https://it.finance.yahoo.com are Date, Open, High, Low, Close, Adj Close, Volume.
  
-<strong>2. Method: What machine learning techniques are you planning to apply or improve upon?</strong>
- * It has been planned to apply some Deep Learning techniques:
-• Recurrent Neural Network (RNN)
-• Long Short-Term Memory (LSTM)
-• Gated Recurrent Unit (GRU)
-• Convolutional Neural Network (CNN, or ConvNet)
+<strong>2. Method: What techniques are you planning to apply or improve upon?</strong>
+ * Linear regression
+
+ * Classical techniques:
+   * Arima - Arimax
+   * Sarima - Sarimax 
+   * Var
+
+ * Deep Learning techniques:
+   * Recurrent Neural Network (RNN)
+   * Long Short-Term Memory (LSTM)
+   * Gated Recurrent Unit (GRU)
+   * Convolutional Neural Network (CNN, or ConvNet)
  
-<strong>3. Intended experiments: What experiments are you planning to run? How do you plan to evaluate your machine learning algorithm?</strong>
- * It has been planned to find the best hyperparameters for every algorithm chosen, and compare the performance of them on the The Procter & Gamble Company (PG) – NYSE dataset, in order to see what is the algorithm that guarantees the best performance.
- 
+<strong>3. Intended experiments: What experiments are you planning to run? How do you plan to evaluate your algorithms?</strong>
+ * The timeseries has been analyzed together with its components. Next a linear regression was applied to  the data. Then, several experiments were run using classical statistical algorithms that consider timeseries as a stochastic process. Finally Deep learning techniques were applied to the data. The Procter & Gamble Company (PG) – NYSE dataset has been used for the experiments. The performances has been assessed by measuring the R^2, Mean Absolute Error, Root Mean Square Error.
   
 <!-- 
 <strong>4. Results of single step prediction:</strong> 
@@ -39,7 +45,6 @@ In the folder “Model/Results” you can find the models saved and the results 
 5. Multi-step prediction
 Ongoing work….
 
- 
 
 ## On-going project........... 
  
