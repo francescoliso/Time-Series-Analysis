@@ -1,7 +1,5 @@
 # Multivariate-Time-Series-Forecasting
 
-<h3 align='center'>Stock price forecasting</h3>
-
 ## Introduction
 
 Nonlinear time series such as stock prices have long been considered to be impossible to forecast. The classical methods used for time series prediction like Box-Jenkins or ARIMA assumes that there is a linear relationship between inputs and outputs. However, with the advent of artificial neural networks and other soft computing techniques, it has become easier to model the nonlinear behavior exhibited by stock price time series. Now, Given the recent deep learning revolution, there has been much attention in using deep learning models for time series prediction
