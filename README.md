@@ -24,7 +24,7 @@ KEYWORDS Time series, Deep learning, Stock price prediction Recurrent neural net
    * Convolutional Neural Network (CNN, or ConvNet)
  
 <strong>3. Intended experiments: What experiments are you planning to run? How do you plan to evaluate your algorithms?</strong>
- * The timeseries has been analyzed together with its components. Next, a linear regression was applied to  the data. Then, several experiments were run using classical statistical algorithms that consider timeseries as a stochastic process. Finally Deep learning techniques were applied to the data. The Procter & Gamble Company (PG) – NYSE dataset has been used for the experiments. The performances has been assessed by measuring the R^2, Mean Absolute Error, Root Mean Square Error.
+ * The timeseries has been analyzed together with its components. Next, a linear regression was applied to the data. Then, several experiments were run using classical statistical algorithms that consider timeseries as a stochastic process. Finally Deep learning techniques were applied to the data. The Procter & Gamble Company (PG) – NYSE dataset has been used for the experiments. The performances has been assessed by measuring the R^2, Mean Absolute Error, Root Mean Square Error.
   
 <!-- 
 <strong>4. Results of single step prediction:</strong> 
